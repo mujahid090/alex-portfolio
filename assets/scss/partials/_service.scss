@@ -1,0 +1,471 @@
+//service-section-start
+.service-bg {
+    background-color: white;
+}
+
+.service-heading {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 0;
+
+    h2 {
+        font-family: $body-font-family;
+        font-style: normal;
+        font-weight: $base-font-weight +200;
+        font-size: 48px;
+        line-height: 1.31;
+        color: $base-font-color;
+    }
+    img{
+        margin-top: -20px;
+        margin-left: 250px;
+        max-width: 100%;
+    }
+
+}
+
+.bg-as {
+    position: relative;
+    z-index: 0;
+
+    &:before {
+        position: absolute;
+        content: "";
+        width: 1470px;
+        height: 265px;
+        background-color: #F9F9F9;
+        background-position: center;
+        bottom: -82px;
+        right: -65px;
+        z-index: -1;
+    }
+}
+
+.service-card {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    padding: 50px 40px;
+    text-transform: capitalize;
+
+    &__img {
+        padding-bottom: 30px;
+        display: inline-block;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &__heading {
+        margin-bottom: 20px;
+
+        h3 {
+            font-family: $body-font-family;
+            font-style: normal;
+            font-weight: $base-font-weight +200;
+            font-size: 24px;
+            line-height: 1;
+            color: $base-font-color;
+        }
+    }
+
+    &__details {
+        margin-bottom: 20px;
+
+        p {
+            font-family: $heading-font-family;
+            font-style: normal;
+            font-weight: $base-font-weight -100;
+            font-size: 16px;
+            line-height: 1.62;
+            color: #888888;
+        }
+    }
+
+    &__link {
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: $heading-font-family;
+        font-style: normal;
+        font-weight: $base-font-weight +200;
+        font-size: 16px;
+        line-height: 0.93;
+        color: $base-color;
+        position: relative;
+
+        i {
+            margin-left: 10px;
+        }
+
+        &:hover {
+            color: $base-font-color;
+            transition: 0.4s;
+        }
+
+        &:before,
+        &:after {
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            bottom: -2px;
+            background: $base-color;
+        }
+
+        &:before {
+            left: 0;
+        }
+
+        &:after {
+            right: 0;
+            background: $base-color;
+            transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+        }
+
+        &:hover:before {
+            background: $base-color;
+            width: 100%;
+            transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+        }
+
+        &:hover:after {
+            background: transparent;
+            width: 100%;
+            transition: 0.4s;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .service-heading {
+        margin-bottom: 40px;
+    
+        h2 {
+            font-size: 38px;
+        }
+        img{
+            margin-top: -31px;
+            margin-left: 187px;
+            max-width: 16%;
+        }
+    
+    }
+    
+    .bg-as {
+        &:before {
+            width: 1040px;
+            height: 230px;
+            bottom: -52px;
+            right: -27px;
+        }
+    }
+    
+    .service-card {
+        padding: 30px 20px;
+    
+        &__img {
+            padding-bottom: 20px;
+    
+            img {
+                max-width: 100%;
+            }
+        }
+    
+        &__heading {
+            margin-bottom: 20px;
+    
+            h3 {
+                font-size: 20px;
+            }
+        }
+    
+        &__details {
+            margin-bottom: 20px;
+    
+            p {
+                font-size: 16px;
+                line-height: 1.4;
+            }
+        }
+    
+        &__link {
+            font-size: 16px;
+    
+            i {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+
+    .service-heading {
+        margin-bottom: 20px;
+    
+        h2 {
+            font-size: 38px;
+        }
+        img{
+            margin-top: -31px;
+            margin-left: 187px;
+            max-width: 21%;
+        }
+    
+    }
+    
+    .bg-as {
+        &:before {
+            width: 795px;
+            height: 230px;
+            bottom: -50px;
+            right: -27px;
+        }
+    }
+    
+    .service-card {
+        padding: 20px;
+    
+        &__img {
+            padding-bottom: 20px;
+    
+            img {
+                max-width: 100%;
+            }
+        }
+    
+        &__heading {
+            margin-bottom: 10px;
+    
+            h3 {
+                font-size: 18px;
+            }
+        }
+    
+        &__details {
+            margin-bottom: 20px;
+    
+            p {
+                font-size: 14px;
+                line-height: 1.4;
+            }
+        }
+    
+        &__link {
+            font-size: 14px;
+    
+            i {
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .service-heading {
+        margin-bottom: 50px;
+    
+        h2 {
+            font-size: 38px;
+        }
+        img{
+            margin-top: -31px;
+            margin-left: 187px;
+            max-width: 30%;
+        }
+    
+    }
+    
+    .bg-as {
+        &:before {
+            width: 591px;
+            height: 1095px;
+            bottom: -38px;
+            right: -14px;
+        }
+    }
+    .mb-20{
+        margin-bottom: 20px;
+    }
+    .service-card {
+        padding: 30px 56px;
+    
+        &__img {
+            padding-bottom: 20px;
+    
+            img {
+                max-width: 100%;
+            }
+        }
+    
+        &__heading {
+            margin-bottom: 20px;
+    
+            h3 {
+                font-size: 22px;
+            }
+        }
+    
+        &__details {
+            margin-bottom: 20px;
+    
+            p {
+                font-size: 16px;
+                line-height: 1.4;
+            }
+        }
+    
+        &__link {
+            font-size: 16px;
+    
+            i {
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .service-heading {
+        margin-bottom: 50px;
+    
+        h2 {
+            font-size: 38px;
+        }
+        img{
+            margin-top: -31px;
+            margin-left: 187px;
+            max-width: 30%;
+        }
+    
+    }
+    
+    .bg-as {
+        &:before {
+            width: 591px;
+            height: 1095px;
+            bottom: -38px;
+            right: -14px;
+        }
+    }
+    .mb-20{
+        margin-bottom: 20px;
+    }
+    .mx-40{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .service-card {
+        padding: 30px 46px;
+    
+        &__img {
+            padding-bottom: 20px;
+    
+            img {
+                max-width: 100%;
+            }
+        }
+    
+        &__heading {
+            margin-bottom: 20px;
+    
+            h3 {
+                font-size: 22px;
+            }
+        }
+    
+        &__details {
+            margin-bottom: 20px;
+    
+            p {
+                font-size: 16px;
+                line-height: 1.4;
+            }
+        }
+    
+        &__link {
+            font-size: 16px;
+    
+            i {
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+@media (max-width: 414px) {
+    .service-heading {
+        margin-bottom: 40px;
+    
+        h2 {
+            font-size: 28px;
+        }
+        img{
+            margin-top: -31px;
+            margin-left: 137px;
+            max-width: 27%;
+        }
+    
+    }
+    
+    .bg-as {
+        &:before {
+            width: 100%;
+            height: 1150px;
+            bottom: -32px;
+            right: -14px;
+        }
+    }
+    .mb-20{
+        margin-bottom: 20px;
+    }
+    .mx-40{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .service-card {
+        padding: 30px;
+    
+        &__img {
+            padding-bottom: 20px;
+    
+            img {
+                max-width: 100%;
+            }
+        }
+    
+        &__heading {
+            margin-bottom: 20px;
+    
+            h3 {
+                font-size: 22px;
+            }
+        }
+    
+        &__details {
+            margin-bottom: 20px;
+    
+            p {
+                font-size: 16px;
+                line-height: 1.4;
+            }
+        }
+    
+        &__link {
+            font-size: 16px;
+    
+            i {
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+//service-section-end

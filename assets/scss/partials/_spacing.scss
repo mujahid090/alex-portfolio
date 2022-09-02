@@ -1,0 +1,133 @@
+.site {
+    overflow: hidden;
+}
+
+.py-87 {
+    padding-top: 87px;
+    padding-bottom: 87px;
+
+    @media (max-width: 1199px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    @media (max-width: 991px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    @media (max-width: 767px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    @media (max-width: 575px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    @media (max-width: 414px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.py-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    @media (max-width: 1199px) {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    @media (max-width: 991px) {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    @media (max-width: 767px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @media (max-width: 575px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        .px-18 {
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+    }
+
+    @media (max-width: 414px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        .px-18 {
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+    }
+}
+
+.py-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    @media (max-width: 1199px) {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @media (max-width: 991px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @media (max-width: 767px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @media (max-width: 575px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @media (max-width: 414px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @media (max-width: 1199px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    @media (max-width: 991px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    @media (max-width: 767px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    @media (max-width: 575px) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    @media (max-width: 414px) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
