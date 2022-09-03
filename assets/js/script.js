@@ -43,7 +43,10 @@
             items: 1,
             autoplay: true,
             loop: true,
-            smartSpeed: 600
+            smartSpeed: 600,
+            nav:true,
+            dots:false,
+            navText:['<i class="fas fa-arrow-left"></i>','<i class="fas fa-arrow-right"></i>']
         });
 
         //logo carousel

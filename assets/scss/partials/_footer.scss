@@ -78,5 +78,231 @@
         }
     }
 }
+@media (max-width: 1199px) {
+
+    .footer {
+    
+        &__heading {
+            margin-bottom: 40px;
+            h2 {
+                font-size: 22px;
+                line-height: 1;
+            }
+        }
+    
+        &__address {
+            margin-bottom: 10px;
+            h3 {
+                font-size: 16px;
+                line-height: 1;
+            }
+        }
+    
+        &__mail {
+            margin-bottom: 10px;
+            h4 {
+                font-size: 42px;
+                line-height: 1.2;
+            }
+        }
+    
+        &__phn {
+            margin-bottom: 40px;
+            span {
+                font-size: 16px;
+                line-height: 1;
+            }
+        }
+    
+        &__social {
+            gap: 30px;
+            a {
+                font-size: 14px;
+                line-height: 1;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+
+    .footer {
+    
+        &__heading {
+            margin-bottom: 40px;
+            h2 {
+                font-size: 22px;
+                line-height: 1;
+            }
+        }
+    
+        &__address {
+            margin-bottom: 10px;
+            h3 {
+                font-size: 16px;
+                line-height: 1;
+            }
+        }
+    
+        &__mail {
+            margin-bottom: 10px;
+            h4 {
+                font-size: 42px;
+                line-height: 1.2;
+            }
+        }
+    
+        &__phn {
+            margin-bottom: 40px;
+            span {
+                font-size: 16px;
+                line-height: 1;
+            }
+        }
+    
+        &__social {
+            gap: 30px;
+            a {
+                font-size: 14px;
+                line-height: 1;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .footer {
+    
+        &__heading {
+            margin-bottom: 30px;
+            h2 {
+                font-size: 18px;
+                line-height: 1;
+            }
+        }
+    
+        &__address {
+            margin-bottom: 10px;
+            h3 {
+                font-size: 16px;
+                line-height: 1;
+            }
+        }
+    
+        &__mail {
+            margin-bottom: 10px;
+            h4 {
+                font-size: 32px;
+                line-height: 1.2;
+            }
+        }
+    
+        &__phn {
+            margin-bottom: 40px;
+            span {
+                font-size: 16px;
+                line-height: 1;
+            }
+        }
+    
+        &__social {
+            gap: 30px;
+            a {
+                font-size: 14px;
+                line-height: 1;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+    
+        &__heading {
+            margin-bottom: 30px;
+            h2 {
+                font-size: 18px;
+                line-height: 1;
+            }
+        }
+    
+        &__address {
+            margin-bottom: 10px;
+            h3 {
+                font-size: 16px;
+                line-height: 1;
+            }
+        }
+    
+        &__mail {
+            margin-bottom: 10px;
+            h4 {
+                font-size: 32px;
+                line-height: 1.2;
+            }
+        }
+    
+        &__phn {
+            margin-bottom: 40px;
+            span {
+                font-size: 16px;
+                line-height: 1;
+            }
+        }
+    
+        &__social {
+            gap: 30px;
+            a {
+                font-size: 14px;
+                line-height: 1;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+    
+        &__heading {
+            margin-bottom: 30px;
+            h2 {
+                font-size: 18px;
+                line-height: 1;
+            }
+        }
+    
+        &__address {
+            margin-bottom: 10px;
+            h3 {
+                font-size: 16px;
+                line-height: 1;
+            }
+        }
+    
+        &__mail {
+            margin-bottom: 10px;
+            h4 {
+                font-size: 32px;
+                line-height: 1.2;
+            }
+        }
+    
+        &__phn {
+            margin-bottom: 40px;
+            span {
+                font-size: 16px;
+                line-height: 1;
+            }
+        }
+    
+        &__social {
+            gap: 30px;
+            a {
+                font-size: 14px;
+                line-height: 1;
+            }
+        }
+    }
+}
 
 //footer-section-end
